@@ -121,6 +121,3 @@ export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=/media/briankariu/Files\ and\ Apps110/Files/Workspace
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
-GOOGLE_APPLICATION_CREDENTIALS=/media/Files/Files/Workspace/savannah/sil-pipeline/cred.json
-AIRFLOW_HOME=$HOME/airflow
-GOOGLE_TEST_CREDENTIALS=/media/Files/Files/Workspace/savannah/sil-pipeline/testcred.json
