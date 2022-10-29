@@ -29,7 +29,7 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ```
 
 
-4. Install pip, followed by the software listed in the Brewfile.
+4. Install pip, followed by the software listed in the requirements.txt.
 
 ```bash
 # These could also be in an install script.
