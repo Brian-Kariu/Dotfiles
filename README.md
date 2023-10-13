@@ -24,8 +24,8 @@ git clone git@github.com:Brian-Kariu/Dotfiles.git ~/.dotfiles
 # There are better and less manual ways to do this;
 # investigate install scripts and bootstrapping tools.
 
-ln -s ~/.dotfiles/.bashrc ~/.bashrc
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.bashrc ~/.dotfiles/.bashrc 
+ln -s ~/.gitconfig ~/.dotfiles/.gitconfig 
 ```
 
 

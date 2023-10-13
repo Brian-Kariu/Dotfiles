@@ -121,3 +121,21 @@ export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=/media/briankariu/Files\ and\ Apps110/Files/Workspace
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
+# -- START ACTIVESTATE INSTALLATION
+export PATH="/home/briankariu/.local/ActiveState/StateTool/release/bin:$PATH"
+# -- STOP ACTIVESTATE INSTALLATION
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Zoxide Configuration.
+eval "$(zoxide init bash)"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
